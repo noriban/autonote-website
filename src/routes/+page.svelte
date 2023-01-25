@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<link rel="stylesheet" href="/src/app.css">
+<nav>
+    <ul>
+        <a href="">
+            <li>test</li>
+        </a><a href="">
+            <li>test</li>
+        </a><a href="">
+            <li>test</li>
+        </a><a href="">
+            <li>test</li>
+        </a>
+    </ul>
+</nav>
