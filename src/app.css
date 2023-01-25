@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600&display=swap');
 * {
     font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+    margin: 1em;
 }
 
 
@@ -9,5 +10,6 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
+    width: auto;
 }

@@ -3,48 +3,42 @@
 </script>
 <style>
     nav {
+        border: inset;
+        margin: auto;
+        position: relative;
     /* border: 1px solid red; */
     /* margin-bottom: 0.3em;
     margin-top: 0.3em; */
-    margin: 0.3em;
-    border: inset;
     height: 20%;
-    width: 70%;
+    width: 60em;
     border-radius: 5em;
-    left: 15%;
-    position: relative;
+    place-self: center;
     place-content: center;
     align-items: center;
+    text-align: center;
 }
 nav img {
+    margin: 0;
     width: 3em;
-    height: 3em;
-    border-radius: 1.5em;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    place-content: center;
+    height: auto;
+    border-radius: 1.4em;
 }
 nav ul {
     /* border: 1px solid green; */
     /* padding: 1em; */
-    margin: 0.5em;
+    margin: 0.5em auto;
+    padding: 0;
     align-items: center;
     place-content: center;
     display: flex;
     justify-content: space-evenly;
     border-radius: 15px;
 }
-/* nav ul a {
-    border: 1px solid purple;
-    place-content: center;
-    align-items: center;
-} */
 nav ul a{
     /* border: 1px solid red; */
     width: 8em;
     height: 2em;
-    margin: 0;
+    margin: auto;
     display: flex;
     text-align: center;
     align-items: center;
@@ -58,20 +52,22 @@ nav ul a{
 }
 
 nav ul a:first-child{
+    /* position: relative; */
+    /* display: inline-block; */
     position: relative;
-    right: 10%;
-    /* justify-content: start; */
-    width: auto;
+    width: 4%;
+    margin: auto 0.1em;
+    text-align: left;
 }
 nav ul a:first-child:hover{
     color: inherit;
     background-color: inherit;
 }
 nav ul a:last-child{
-    width: 10%;
+    width: auto;
     position: relative;
-    left: 5%;
-    /* justify-content: start; */
+    margin: auto 0.5em;
+    justify-content: space-evenly;
 } 
 nav ul a:visited, nav ul a:link {
     text-decoration: none;
@@ -83,7 +79,6 @@ nav ul a:active {
 nav ul a:hover {
     color: white;
     background-color: black;
-    /* animation-duration: 0.15s; */
     transition: 0.15s;
     border-radius: 15px;
 }
@@ -97,11 +92,15 @@ nav ul a:hover {
         </a>
         <a href="/">
             <li>Home</li>
-        </a><a href="/features">
+        </a><a href="#features">
             <li>Features</li>
-        </a><a href="/faq">
+        </a><a href="#faq">
             <li>FAQ</li>
-        </a><a href="https://github.com/noriban/AutoNote">
+        </a>
+        <a href="/">
+            <li>test</li>
+        </a>
+        <a href="https://github.com/noriban/AutoNote">
             <li>Source</li>
         </a>
         <a href="https://github.com/noriban/AutoNote/releases/latest">
