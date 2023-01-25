@@ -1,9 +1,10 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600&display=swap');
-* {
+body {
     font-family: 'Noto Sans Adlam Unjoined', sans-serif;
     padding: 0;
     margin: 0;
+    /* background-color: gray; */
 }
 nav {
     /* border: 1px solid red; */
@@ -18,8 +19,13 @@ nav {
     place-content: center;
     align-items: center;
 }
+nav img {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1.5em;
+}
 nav ul {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     /* padding: 1em; */
     margin: 0.5em;
     align-items: center;
@@ -34,7 +40,7 @@ nav ul {
     align-items: center;
 } */
 nav ul a{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 8em;
     height: 2em;
     margin: 0;
@@ -49,6 +55,15 @@ nav ul a{
     width: inherit; */
     list-style: none;
 }
+
+nav ul a:first-child{
+    width: auto;
+    position: relative;
+    place-items: left;
+}
+nav ul a:last-child{
+    right: 0;
+} 
 nav ul a:visited, nav ul a:link {
     text-decoration: none;
     color: inherit;
@@ -70,29 +85,40 @@ section {
     align-content: center;
     min-height: 100vh;
 }
+
 </style>
-<nav>
-    <ul>
-        <a href="/">
-            <li>Home</li>
-        </a><a href="/features">
-            <li>Features</li>
-        </a><a href="/test">
-            <li>test</li>
-        </a><a href="/">
-            <li>test</li>
-        </a>
-    </ul>
-</nav>
-<section>
-    Hi, im james
-</section>
-<section>
-    Hi, im james
-</section>
-<section>
-    Hi, im james
-</section>
-<section>
-    Hi, im james
-</section>
+<body>
+    <nav>
+        <ul>
+            <a href="/">
+                <li>
+                    <img src="/src/assets/logo.png" alt="logo.png">
+                </li>
+            </a>
+            <a href="/">
+                <li>Home</li>
+            </a><a href="/features">
+                <li>Features</li>
+            </a><a href="/faq">
+                <li>FAQ</li>
+            </a><a href="https://github.com/noriban/AutoNote">
+                <li>Source</li>
+            </a>
+            <a href="https://github.com/noriban/AutoNote/releases/latest">
+                <li>Try now</li>
+            </a>
+        </ul>
+    </nav>
+    <section>
+        Hi, im james
+    </section>
+    <section>
+        Hi, im james
+    </section>
+    <section>
+        Hi, im james
+    </section>
+    <section>
+        Hi, im james
+    </section>
+</body>
