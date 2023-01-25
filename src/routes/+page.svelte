@@ -1,3 +1,6 @@
+<script>
+    import logo from '../assets/logo.png'
+</script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600&display=swap');
 body {
@@ -92,7 +95,7 @@ section {
         <ul>
             <a href="/">
                 <li>
-                    <img src="/src/assets/logo.png" alt="logo.png">
+                    <img src="{logo}" alt="logo.png">
                 </li>
             </a>
             <a href="/">
