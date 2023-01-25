@@ -1,5 +1,6 @@
 <script>
     import logo from '../assets/logo.png'
+    import css from '../app.css'
 </script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600&display=swap');
@@ -14,7 +15,7 @@ nav {
     /* border: 1px solid red; */
     margin-bottom: 0.3em;
     margin-top: 0.3em;
-    border: 0.1em solid gray;
+    border: inset;
     height: 20%;
     width: 70%;
     border-radius: 5em;
@@ -89,16 +90,6 @@ nav ul a:hover {
     /* animation-duration: 0.15s; */
     transition: 0.15s;
     border-radius: 15px;
-}
-
-
-/* sections */
-section {
-    border: 1px dotted coral;
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
 }
 
 </style>
