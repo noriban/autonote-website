@@ -9,6 +9,7 @@ body {
     margin: 0;
     /* background-color: gray; */
 }
+/* navbar */
 nav {
     /* border: 1px solid red; */
     margin-bottom: 0.3em;
@@ -23,12 +24,12 @@ nav {
     align-items: center;
 }
 nav img {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.7em;
+    height: 2.7em;
     border-radius: 1.5em;
 }
 nav ul {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     /* padding: 1em; */
     margin: 0.5em;
     align-items: center;
@@ -43,7 +44,7 @@ nav ul {
     align-items: center;
 } */
 nav ul a{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 8em;
     height: 2em;
     margin: 0;
@@ -60,12 +61,20 @@ nav ul a{
 }
 
 nav ul a:first-child{
-    width: auto;
     position: relative;
-    place-items: left;
+    right: 10%;
+    /* justify-content: start; */
+    width: auto;
+}
+nav ul a:first-child:hover{
+    color: inherit;
+    background-color: inherit;
 }
 nav ul a:last-child{
-    right: 0;
+    width: 10%;
+    position: relative;
+    left: 5%;
+    /* justify-content: start; */
 } 
 nav ul a:visited, nav ul a:link {
     text-decoration: none;
@@ -81,6 +90,9 @@ nav ul a:hover {
     transition: 0.15s;
     border-radius: 15px;
 }
+
+
+/* sections */
 section {
     border: 1px dotted coral;
     display: grid;
