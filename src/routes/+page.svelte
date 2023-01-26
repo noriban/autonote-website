@@ -1,13 +1,14 @@
 <script>
     import Navbar from '../components/Navbar.svelte'
+    import NavbarMobile from '../components/NavbarMobile.svelte'
     import Features from '../components/Features.svelte'
     import Faq from '../components/Faq.svelte'
     import Info from '../components/Info.svelte'
     import FooterComp from '../components/Footer.svelte'
-    import css from '../app.css'
 </script>
 
-<Navbar />
+<!-- <Navbar /> -->
+<NavbarMobile />
 
 <section>
     <Info />
