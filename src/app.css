@@ -6,42 +6,6 @@
     padding: 0;
 }
 
-
-/* @media screen and (max-width: 600px) {
-        nav{
-            font-size: 6em;
-            display: block;
-        }   
-        nav ul {
-            border: 1px solid green;
-        }
-        nav ul a{
-            border: 1px solid red;
-            display: inline-flexbox;
-        }
-        nav img {
-            width: 1%;
-            width: 1%;
-        }
-        nav ul a:first-child:hover{
-            color: inherit;
-            background-color: inherit;
-        }
-        nav ul a:visited, nav ul a:link {
-            text-decoration: none;
-            color: inherit;
-        }
-        nav ul a:active {
-            border-radius: 10px;
-        }
-        nav ul a:hover {
-            color: white;
-            background-color: black;
-            transition: 0.15s;
-            border-radius: 15px;
-        }
-        
-} */
 section {
     border: 1px dotted coral;
     display: grid;

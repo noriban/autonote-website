@@ -4,6 +4,8 @@
 </script>
 <header>
     <img class="logo" src="{logo}" alt="logo">
+    <input class="side-menu" type="checkbox" id="side-menu">
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
     <nav>
         <ul class="nav__links">
             <li><a href="#features">Features</a></li>
