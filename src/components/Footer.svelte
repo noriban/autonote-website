@@ -1,1 +1,8 @@
-<h1>test footer</h1>
+<style>
+    footer {
+        display: grid;
+    }
+</style>
+<footer>
+
+</footer>

@@ -5,21 +5,25 @@
     import Info from '../components/Info.svelte'
     import FooterComp from '../components/Footer.svelte'
     import '../app.css'
+    // import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 </script>
 
 <Navbar />
 
-<section>
-    <Info />
-</section>
-<section>
-    <Features />
-</section>
-<section>
-    <Faq />
-</section>
-<section>
-    Hi, im james
-</section>
+<main>
+    <section>
+        <Info />
+    </section>
+    <section>
+        <Features />
+    </section>
+    <section>
+        <Faq />
+    </section>
+    <section>
+        Hi, im james
+    </section>
+</main>
+
 
 <FooterComp />
