@@ -4,6 +4,7 @@
     import Faq from '../components/Faq.svelte'
     import Info from '../components/Info.svelte'
     import FooterComp from '../components/Footer.svelte'
+    import './app.css'
 </script>
 
 <Navbar />
