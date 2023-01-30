@@ -6,14 +6,6 @@
     --font-color: #020202;
     --background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
 }
-@keyframes background_gradient_anim {
-    from {
-        background: linear-gradient(0deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
-    }
-    to {
-        background: linear-gradient(180deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
-    }
-}
 @media (min-width: 320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     header {
         transition: all 0.3s ease 0s;
@@ -24,8 +16,9 @@
 
     }
     .logo {
-        width: 64px;
-        height: 64px;
+        /* position: fixed; */
+        width: 48px;
+        height: 48px;
         border-radius: 50px;
     }
     li,a,button {
@@ -72,6 +65,61 @@
         text-decoration: none;
         color: inherit;
     }
+
+
+    /* .toggle{
+        position: fixed;
+        top: 40px;
+        right: 40px;
+        z-index: 2
+    }
+    .toggle a{
+        text-decoration: none;
+        color: #262626;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .menu{
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #FFF;
+        z-index: 1;
+        transition: 0.5s;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    ul li{
+        list-style: none;
+    }
+    
+    ul li a{
+        padding: 10px;
+        display: inline-block;
+        font-family: verdana;
+        font-size: 2em;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #262626;
+    }
+    ul li a:hover{
+        background: #FFFC85
+    }
+    .menu.active{
+        left: 0;
+        overflow: auto;
+    } */
 }
 @media (min-width: 481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 }
@@ -126,7 +174,7 @@
         border-radius: 1.1em;
         background: var(--background);
     }
-    button {
+    /* button {
         background-color: rgba(48, 248, 210, 1);
         padding: 18px 30px;
         border: none;
@@ -140,12 +188,84 @@
         padding: 16px 30px;
         transition: all 0.3s ease 0s;
 
-    }
+    } */
+
+/* CSS */
+.button-85 {
+  padding: 1em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 2em;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 60s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 3.125em;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 3.125em;
+}
+.button-85:hover {
+  padding: 0.6em 2em;
+    /* border-radius: 1.5em; */
+}
     nav ul a:visited, nav ul a:link {
         text-decoration: none;
         color: inherit;
     }
-    .side-menu, .hamb {
+    .toggle {
         display: none;
     }
 }
@@ -219,6 +339,10 @@
         nav ul a:visited, nav ul a:link {
             text-decoration: none;
             color: inherit;
+        }
+        .button-85 {
+            padding: 0.6em;
+            margin: 0;
         }
 }
 /* @media (min-width: 2560px) {
