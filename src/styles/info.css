@@ -1,0 +1,20 @@
+.info_content {
+    border: 1px solid red;
+    float: left;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+}
+#app_name {
+    padding-top: 0.8em;
+    font-size: 3em;
+    text-align: center;
+}
+#info {
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
+}
+#welcome_text{
+    font-size: 1.6em;
+    text-align: center;
+    padding: 1em;
+}
