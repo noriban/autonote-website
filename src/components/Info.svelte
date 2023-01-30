@@ -1,14 +1,14 @@
 <script>
-    
+    import '../styles/info.css'
 </script>
-<h1>AutoNote is your car companion that helps you...</h1>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
-<p>- test</p>
+<div>
+    <p id="app_name">AutoNote</p>
+    <p id="welcome_text">Your car </p>
+</div>
+<div class="info_content">
+    <p>TO JEST TEST#1</p>
+</div>
+<div class="info_content">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/noriban/autonote?logo=android&style=flat-square">
+    <p>TO JEST TEST#2</p>
+</div>

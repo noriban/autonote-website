@@ -5,24 +5,23 @@
     import Info from '../components/Info.svelte'
     import FooterComp from '../components/Footer.svelte'
     import '../app.css'
-    // import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 </script>
 
 <Navbar />
 
 <main>
-    <section>
+    <section id="info">
         <Info />
     </section>
-    <section>
+    <section id="features">
         <Features />
     </section>
-    <section>
+    <section id="faq">
         <Faq />
     </section>
-    <section>
+    <!-- <section>
         Hi, im james
-    </section>
+    </section> -->
 </main>
 
 
