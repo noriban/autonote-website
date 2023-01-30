@@ -14,5 +14,5 @@
             <li><a href="https://github.com/noriban/AutoNote">Source</a></li>
         </ul>
     </nav>
-    <a href="https://github.com/noriban/AutoNote/releases" class="cta"><button>Try now</button></a>
+    <a href="https://github.com/noriban/AutoNote/releases" class="cta"><button>Download</button></a>
 </header>
