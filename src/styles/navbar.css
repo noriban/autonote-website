@@ -2,8 +2,19 @@
     --white: #f9f9f9;
     --black: #36383F;
     --gray: #85888C;
+    --dark-blue: rgb(2,0,36);
+    --font-color: #020202;
+    --background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
 }
-@media (min-width: 20em)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+@keyframes background_gradient_anim {
+    from {
+        background: linear-gradient(0deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
+    }
+    to {
+        background: linear-gradient(180deg, rgba(2,0,36,1) 5%, rgba(0,0,128,1) 15%, rgba(0,212,255,1) 90%);
+    }
+}
+@media (min-width: 320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     header {
         transition: all 0.3s ease 0s;
 
@@ -62,20 +73,23 @@
         color: inherit;
     }
 }
-@media (min-width: 481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width: 641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width: 961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width: 481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+}
+@media (min-width: 641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+}
+@media (min-width: 961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+}
+
 @media (min-width: 1025px) { /* big landscape tablets, laptops, and desktops */
     header {
-    /* background-color: #ff0101; */
     border: inset gray 3px;
     border-radius: 13em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1px;
+    padding: 0.2em;
     margin: 1% auto;
-    width: 70%;
+    width: 90%;
     transition: all 0.3s ease 0s;
     }
     .logo {
@@ -87,9 +101,10 @@
     }
     li,a,button {
         font-weight: 600;
-        font-size: 16px;
-        color: #020202;
+        font-size: 0.8em;
+        color: var(--black);
         text-decoration: none;
+        /* color: antiquewhite; */
     }
     .nav__links {
         list-style: none;
@@ -104,12 +119,16 @@
         border-radius: 15px;
         transition: all 0.3s ease 0s;
     }
-    .nav__links li a:hover {
-        color: #ffffff;
+    nav ul a:hover {
+        padding: 9px;
+        font-size: 1.07em;
+        transition: all 0.3s ease 0s;
+        border-radius: 1.1em;
+        background: var(--background);
     }
     button {
         background-color: rgba(48, 248, 210, 1);
-        padding: 12px 26px;
+        padding: 18px 30px;
         border: none;
         border-radius: 3.12em;
         cursor: pointer;
@@ -117,20 +136,17 @@
     }
     button:hover {
         color: antiquewhite;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,128,1) 35%, rgba(0,212,255,1) 100%);
-    }
-    nav ul a:hover {
-        padding: 10px;
+        background: var(--dark-blue);
+        padding: 16px 30px;
         transition: all 0.3s ease 0s;
-        border-radius: 20px;
-        color: antiquewhite;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,128,1) 35%, rgba(0,212,255,1) 100%);
+
     }
     nav ul a:visited, nav ul a:link {
         text-decoration: none;
         color: inherit;
+    }
+    .side-menu, .hamb {
+        display: none;
     }
 }
 @media (min-width: 1281px) { 
@@ -138,11 +154,13 @@
         border: inset gray 3px;
         border-radius: 13em;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         padding: 1px;
         margin: 1% auto;
-        width: 60%;
+        padding-left: 1%;
+        padding-right: 1%;
+        width: 75%;        
         transition: all 0.3s ease 0s;
         }
         .logo {
@@ -154,7 +172,77 @@
         }
         li,a,button {
             font-weight: 600;
-            font-size: 16px;
+            font-size: 0.85em;
+            color: var(--font-color);
+            text-decoration: none;
+        }
+        .nav__links {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    
+        .nav__links li {
+            display: block;
+            padding: 0 1.2em;
+        }
+        .nav__links li a {
+            text-align: center;
+            border-radius: 1.1em;
+            transition: all 0.3s ease 0s;
+        }
+        .nav__links li a:hover {
+            color: #ffffff;
+        }
+        button {
+            padding: 0.45em 26px;
+            
+            cursor: pointer;
+            border: none;
+            color: antiquewhite;
+            border-radius: 3.12em;
+            transition: all 0.3s ease 0s;
+            background-color: rgb(15, 15, 110);
+        }
+        button:hover {
+            color: antiquewhite;
+            transition: all 0.3s ease 0s;
+            background-color: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(0,0,128,1) 35%, rgba(0,212,255,1) 85%);
+        }
+        nav ul a:hover {
+            padding: 0.2em;
+            border-radius: 0.7em;
+            color: antiquewhite;
+            transition: all 0.4s ease 0s;
+            background: rgb(15, 15, 110);
+        }
+        nav ul a:visited, nav ul a:link {
+            text-decoration: none;
+            color: inherit;
+        }
+}
+/* @media (min-width: 2560px) {
+    header {
+        border: inset gray 3px;
+        border-radius: 13em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin: 1% auto;
+        width: 50%;
+        transition: all 0.3s ease 0s;
+        }
+        .logo {
+            width: 64px;
+            height: 64px;
+            border-radius: 3.125em;
+    
+            cursor: pointer;
+        }
+        li,a,button {
+            font-weight: 600;
+            font-size: 27px;
             color: #020202;
             text-decoration: none;
         }
@@ -165,11 +253,11 @@
         }
     
         .nav__links li {
-            display: inline-flex;
-            padding: 10px 1.3em;
+            display: block;
+            padding: 0 1.2em;
         }
         .nav__links li a {
-            border-radius: 15px;
+            border-radius: 16px;
             transition: all 0.3s ease 0s;
         }
         .nav__links li a:hover {
@@ -200,4 +288,4 @@
             text-decoration: none;
             color: inherit;
         }
-}
+} */
