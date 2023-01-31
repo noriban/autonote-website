@@ -14,5 +14,5 @@ section {
     place-items: center;
     align-content: center;
     min-height: 100vh;
-    min-width: 100vh;
+    /* min-width: 100%; */
 }
