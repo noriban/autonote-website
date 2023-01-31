@@ -6,7 +6,7 @@
 <header class="test">
     <img class="logo" src="{logo}" alt="logo">
     <div class="toggle">
-        <a><i class="fa fa-bars">v</i></a>
+        <a><i class="fa fa-bars"></i></a>
     </div>
     <nav class="menu">
         <ul class="nav__links">
