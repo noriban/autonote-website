@@ -1,13 +1,10 @@
 <script>
     import logo from '../assets/logo.png'
-    import '../styles/navbar.css'
+    // import '../styles/navbar.css'
 
 </script>
 <header class="test">
-    <img class="logo" src="{logo}" alt="logo">
-    <!-- <div class="toggle">
-        <a><i class="fa fa-bars"></i></a>
-    </div> -->
+    <img class="logo w-20 md:w-56" src="{logo}" alt="logo">
     <nav class="menu">
         <ul class="nav__links">
             <li><a href="#features">Features</a></li>
