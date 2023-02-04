@@ -1,7 +1,4 @@
-<script>
-    import '../styles/info.css'
-</script>
-<div>
+<div class="bg-violet">
     <p id="app_name">AutoNote</p>
     <p id="welcome_text">Your car can now have companion</p>
 </div>
