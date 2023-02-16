@@ -41,9 +41,9 @@
                 <!-- Active Link = text-indigo-500
                 Inactive Link = hover:text-indigo-500 -->
 				<li class="nav_item"><a href="#features">Features</a></li>
-				<li class="nav_item"><a href="#">Roadmap</a></li>
+				<li class="nav_item"><a href="/roadmap">Roadmap</a></li>
 				<li class="nav_item"><a href="#">About</a></li>
-				<li class="nav_item"><a href="#">Source</a></li>
+				<li class="nav_item"><a href="https://github.com/noriban/AutoNote">Source</a></li>
 			</ul>
 		</div>
 		<div class="order-2 md:order-3">
