@@ -27,7 +27,7 @@
     </a>
 </header> -->
 
-<nav class="bg-gray-200 shadow shadow-gray-300 w-100 md:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3 xl:w-2/4">
+<nav class="bg-gray-200 shadow shadow-gray-300 w-100 sm:py-4 md:py-0 md:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3 xl:w-2/4">
 	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap ">
 		<!-- Logo -->
 		<div class="mx-1 md:mx-0 md:order-1">

@@ -11,7 +11,7 @@
 
 @layer components {
     .nav_item {
-        @apply gap-1 py-1 sm:px-3 sm:bg-indigo-500 sm:text-white md:bg-transparent sm:rounded-full md:text-gray-500 hover:text-indigo-300 md:px-4 md:py-2 transition-all
+        @apply gap-1 py-1 sm:py-5 md:text-gray-500 hover:text-indigo-300 md:px-4 md:py-2 transition-all
     }
     .card2 {
        @apply h-96 w-full rounded-lg object-cover items-center justify-center mx-auto
