@@ -1,5 +1,5 @@
 <script>
-    import logo from '../assets/logo.png'
+    import logo from '../assets/logo.svg'
     import '../styles/button.css'
     // import '../styles/li.css'
 
@@ -27,13 +27,13 @@
     </a>
 </header> -->
 
-<nav class="bg-gray-200 shadow shadow-gray-300 w-100 md:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3">
-	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+<nav class="bg-gray-200 shadow shadow-gray-300 w-100 md:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3 xl:w-2/4">
+	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap ">
 		<!-- Logo -->
-		<div class="text-indigo-500 md:order-1">
+		<div class="md:order-1">
 			<!-- Heroicon - Chip Outline -->
       <a href="/">  
-        <img class="h-12 w-12 rounded-full" src="{logo}" alt="logo">
+        <img class="h-14 w-14 md:rounded-full" src="{logo}" alt="logo">
       </a>
 		</div>
 		<div class="text-gray-500 order-3 w-full md:w-auto md:order-2">
