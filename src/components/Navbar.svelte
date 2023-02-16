@@ -1,57 +1,61 @@
 <script>
     import logo from '../assets/logo.png'
+    import '../styles/button.css'
+    // import '../styles/li.css'
 
 </script>
-<!-- <header class="navbar my-0 inline-block w-full  place-content-center items-center border bg-white dark:bg-slate-500
-                    sm:flex sm:border sm:rounded-none
-                    md:flex md:w-10/12 md:rounded-full md:mx-auto md:my-4 md:p-0 md:m-0">
-    
+<!-- <header class="navbar grid justify-center
+                sm:w-full sm:flex sm:mx-auto 
+                md:w-2/4 md:mx-auto md:justify-between md:flex md:py-2 md:my-6 md:rounded-full md:border">
+
+              
     <img class="logo hidden 
-                    sm:hidden
-                    md:flex md:rounded-full md:w-14 md:p-0 md:m-0 md:grow-1 md:items-stretch" src="{logo}" alt="logo">
-    <nav class="menur">
-        <ul class="nav__links">
-            <li class=""><a href="#features">Features</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li class=""><a href="https://github.com/noriban/AutoNote">Source</a></li>
-        </ul>
-    </nav>
-    <a href="https://github.com/noriban/AutoNote/releases" class="cta md:flex-none md:grow-0">
-        <button class="downButton" role="button">
-        Download
-    </button></a>
+                    
+                    md:flex md:rounded-full md:w-20 md:p-0 md:m-0 md:items-stretch md:ml-1" src="{logo}" alt="logo">
+    <ul class="nav_links grid text-center 
+                        
+                        md:flex md:justify-between md:gap-12 md:items-center md:font-medium md:tracking-wide">
+            <li class="nav_item"><a href="#features">Features</a></li>
+            <li class="nav_item"><a href="#faq">FAQ</a></li>
+            <li class="nav_item"><a href="#about">About Us</a></li>
+            <li class="nav_item"><a href="https://github.com/noriban/AutoNote">Source</a></li>
+    </ul>
+    <a href="https://github.com/noriban/AutoNote/releases" class="cta">
+      <button class="downButton">
+        <span after=" for free">Download</span>
+      </button>
+    </a>
 </header> -->
 
-<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
-    <a href="/" class="flex items-center">
-        <img src="{logo}" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo">
-        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">AutoNote</span>
-    </a>
-    <div class="flex md:order-2">
-        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
-        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+<nav class="bg-gray-200 shadow shadow-gray-300 w-100 md:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3">
+	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+		<!-- Logo -->
+		<div class="text-indigo-500 md:order-1">
+			<!-- Heroicon - Chip Outline -->
+      <a href="/">  
+        <img class="h-12 w-12 rounded-full" src="{logo}" alt="logo">
+      </a>
+		</div>
+		<div class="text-gray-500 order-3 w-full md:w-auto md:order-2">
+			<ul class="flex font-semibold justify-between">
+                <!-- Active Link = text-indigo-500
+                Inactive Link = hover:text-indigo-500 -->
+				<li class="md:px-4 md:py-2"><a href="#features">Features</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Search</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Explore</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">About</a></li>
+				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="order-2 md:order-3">
+      <a href="">
+
+        <button class="downButton px-4 
+        py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2 md:py-3 hover:py-4">
+        <!-- Heroicons - Login Solid -->
+        <span>Download</span>
       </button>
-    </div>
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </nav>
-  
+      </a>
+		</div>
+	</div>
+</nav>
