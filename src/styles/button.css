@@ -160,7 +160,7 @@
     /* border: none; */
     /* background: #1875FF; */
     color: white;
-    font-family: inherit;
+    /* font-family: inherit; */
     /* text-align: center; */
     /* font-size: 13px; */
     /* box-shadow: 0px 14px 56px -11px #1875FF; */
@@ -185,12 +185,12 @@
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -23px;
-    transition: 0.6s;
+    right: -20px;
+    transition: 0.5s;
    }
    
    .downButton:hover span {
-    padding-right: 3.55em;
+    padding-right: 3.6em;
    }
    
    .downButton:hover span:after {
