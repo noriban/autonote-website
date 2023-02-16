@@ -10,13 +10,13 @@
 <Navbar/>
 
 <main>
-    <section class="min-h-screen">
+    <section class="lg:min-h-screen">
         <Info />
     </section>
-    <section class="min-h-screen">
+    <section class="lg:min-h-screen">
         <Features />
     </section>
-    <section class="min-h-screen">
+    <section class="lg:min-h-screen">
         <!-- <Faq/> -->test
     </section>
 </main>
