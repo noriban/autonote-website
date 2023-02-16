@@ -10,7 +10,7 @@
 <Navbar/>
 
 <main>
-    <section class="min-h-screen">
+    <section class="">
         <Info />
     </section>
     <section>

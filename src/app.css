@@ -1,15 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600&display=swap');
+
+@layer base {
+    html {
+        font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+      }
+}
 
 @layer components {
     .nav_item {
-        @apply text-black 
+        @apply gap-1 py-1 sm:px-3 sm:bg-indigo-500 sm:text-white md:bg-transparent sm:rounded-full md:text-gray-500 hover:text-indigo-300 md:px-4 md:py-2 transition-all
     }
-    .info_content {
-        @apply px-5 py-10 w-6/12 my-auto h-auto
-    }
-    .card, .card2 {
-        @apply h-2/3
-    }
+    .card2 {
+       @apply h-96 w-full rounded-lg object-cover items-center justify-center mx-auto
+    } 
 }

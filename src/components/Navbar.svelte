@@ -30,28 +30,26 @@
 <nav class="bg-gray-200 shadow shadow-gray-300 w-100 md:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3 xl:w-2/4">
 	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap ">
 		<!-- Logo -->
-		<div class="md:order-1">
+		<div class="mx-1 md:mx-0 md:order-1">
 			<!-- Heroicon - Chip Outline -->
       <a href="/">  
-        <img class="h-14 w-14 md:rounded-full" src="{logo}" alt="logo">
+        <img class="h-14 w-14 flex-1 md:rounded-full" src="{logo}" alt="logo">
       </a>
 		</div>
 		<div class="text-gray-500 order-3 w-full md:w-auto md:order-2">
 			<ul class="flex font-semibold justify-between">
                 <!-- Active Link = text-indigo-500
                 Inactive Link = hover:text-indigo-500 -->
-				<li class="md:px-4 md:py-2"><a href="#features">Features</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Search</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Explore</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">About</a></li>
-				<li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Contact</a></li>
+				<li class="nav_item"><a href="#features">Features</a></li>
+				<li class="nav_item"><a href="#">Roadmap</a></li>
+				<li class="nav_item"><a href="#">About</a></li>
+				<li class="nav_item"><a href="#">Source</a></li>
 			</ul>
 		</div>
 		<div class="order-2 md:order-3">
-      <a href="">
+      <a href="https://github.com/noriban/AutoNote/releases">
 
-        <button class="downButton px-4 
-        py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2 md:py-3 hover:py-4">
+        <button class="downButton px-3 py-4 shadow-2xl bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2 md:py-3 hover:py-4">
         <!-- Heroicons - Login Solid -->
         <span>Download</span>
       </button>
