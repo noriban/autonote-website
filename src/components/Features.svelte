@@ -1,1 +1,4 @@
-<h1>This is a feature page</h1>
+<script>
+    import '../styles/cardo.css'
+</script>
+<div class="cardo clear-both">My Card</div>
