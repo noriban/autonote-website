@@ -8,7 +8,7 @@
     <img class="rounded-full items-center mx-auto mt-5" alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/noriban/autonote?label=VERSION&logo=android&style=for-the-badge">
     </div>
 </div>
-<div class="container mx-auto px-2 py-2">
+<div class="container mx-auto px-2 pt-2">
 
 
     <div class="mt-1 grid grid-cols-1 mx-4 gap-2 md:grid-cols-2 xl:grid-cols-2 xl:gap-14 xl:items-center xl:justify-center">
@@ -24,7 +24,7 @@
         <div class="card">
             <div class="card2">
                 <p class="titles">Remember</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero perspiciatis, in hic architecto, aut similique dolores perferendis eligendi, dolor autem eveniet libero quidem fugiat repellat eius molestias maiores nostrum!</p>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero perspiciatis, in hic architecto, aut similique dolores perferendis eligendi, dolor autem eveniet libero quidem fugiat repellat eius molestias maiores nostrum!</p>
             </div>
         </div>
     </div>

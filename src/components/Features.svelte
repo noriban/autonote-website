@@ -3,7 +3,7 @@
     import jclogo from '../assets/jclogo.svg'
 </script>
 <!-- <div class="cardo clear-both">My Card</div> -->
-<div id="features" class="container max-w-6xl mx-auto py-12">
+<div id="features" class="container max-w-6xl mx-auto py-0">
     <h2 class="text-4xl font-bold tracking-tight text-center">What can do your companion</h2>
     <p class="mt-2 text-lg text-center text-gray-600">Check out our list of awesome features below.</p>
     <div class="grid grid-cols-4 gap-8 mt-12 sm:grid-cols-8 md:grid-cols-12 sm:px-8 xl:px-0">
