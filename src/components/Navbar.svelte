@@ -37,7 +37,7 @@
       </a>
 		</div>
 		<div class="text-gray-500 order-3 w-full md:w-auto md:order-2">
-			<ul class="flex font-semibold justify-between">
+			<ul class="flex font-semibold justify-evenly">
                 <!-- Active Link = text-indigo-500
                 Inactive Link = hover:text-indigo-500 -->
 				<li class="nav_item"><a href="#features">Features</a></li>
