@@ -14,7 +14,7 @@
     <div class="mt-1 grid grid-cols-1 mx-4 gap-2 md:grid-cols-2 xl:grid-cols-2 xl:gap-14 xl:items-center xl:justify-center">
         <div class="info_content">
         <div class="card">
-            <div class="card2 text-center mx-auto p-5">
+            <div class="card2">
                 <p class="titles">Save money</p>
                 <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum adipisci, libero sunt quod dolor porro culpa est maxime iusto quasi suscipit fuga numquam eaque a. Sequi voluptatem dolores quae repudiandae?</p>
             </div>
@@ -22,9 +22,9 @@
     </div>
     <div class="info_content">
         <div class="card">
-            <div class="card2 text-center justify-center items-center mx-auto p-5">
+            <div class="card2">
                 <p class="titles">Remember</p>
-                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero perspiciatis, in hic architecto, aut similique dolores perferendis eligendi, dolor autem eveniet libero quidem fugiat repellat eius molestias maiores nostrum!</p>
             </div>
         </div>
     </div>
