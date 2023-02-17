@@ -4,7 +4,6 @@
 
 
 @layer base {
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600&display=swap');
     html {
         @apply mx-1 font-noto
       }
