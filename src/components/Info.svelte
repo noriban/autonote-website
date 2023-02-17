@@ -15,7 +15,7 @@
         <div class="info_content">
         <div class="card">
             <div class="card2">
-                <p class="titles">Save money</p>
+                <p class="titles">Optimalize</p>
                 <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum adipisci, libero sunt quod dolor porro culpa est maxime iusto quasi suscipit fuga numquam eaque a. Sequi voluptatem dolores quae repudiandae?</p>
             </div>
         </div>
