@@ -2,7 +2,6 @@
     import '../styles/cardo.css'
     import jclogo from '../assets/jclogo.svg'
 </script>
-<!-- <div class="cardo clear-both">My Card</div> -->
 <div id="features" class="container max-w-6xl mx-auto py-0 mt-6">
     <h2 class="text-4xl font-bold tracking-tight text-center">What can do your companion</h2>
     <p class="mt-2 text-lg text-center text-gray-600">Check out our list of awesome features below.</p>
