@@ -1,19 +1,18 @@
 .card {
     background-image: linear-gradient(163deg, #24302a 0%, #1a1530 100%);
-    border-radius: 3.5em;
+    border-radius: 4.5em;
     transition: all .3s;
    }
    
    .card2 {
     /* background-color: #1a1a1a; */
-    border-radius: 2em;
+    border-radius: 3.5em;
     box-shadow: 4px 6px 14px #2307078c;
     transition: all .2s;
    }
    
    .card2:hover {
-    transform: scale(0.97);
-    border-radius: 2em;
+    border-radius: 3.5em;
     
    }
    
