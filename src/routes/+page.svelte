@@ -10,14 +10,17 @@
 <Navbar/>
 
 <main>
-    <section class="lg:min-h-screen">
+    <section class="sections">
         <Info />
     </section>
-    <section class="lg:min-h-screen">
+    <section class="sections">
         <Features />
     </section>
-    <section class="lg:min-h-screen">
+    <section class="sections">
         <!-- <Faq/> -->test
+    </section>
+    <section class="sections">
+test
     </section>
 </main>
 <FooterComp />
