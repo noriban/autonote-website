@@ -36,7 +36,7 @@
     margin-top: -30px;
    } */
 
-   .card {
+   .cards {
     /* box-sizing: border-box; */
     /* width: 190px;
     height: 254px; */
@@ -55,11 +55,11 @@
     font-weight: bolder;
   }
   
-  .card:hover {
+  .cards:hover {
     border: 1px solid black;
     transform: scale(1.05);
   }
   
-  /* .card:active {
+  /* .cards:active {
     transform: scale(0.95) rotateZ(1.7deg);
   } */
