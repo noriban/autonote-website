@@ -5,7 +5,7 @@
 <div id="features" class="container max-w-6xl mx-auto py-0 mt-6">
     <h2 class="text-4xl font-bold tracking-tight text-center">What can do your companion</h2>
     <p class="mt-2 text-lg text-center text-gray-600">Check out our list of awesome features below.</p>
-    <div class="grid grid-cols-4 gap-8 mt-12 sm:grid-cols-8 md:grid-cols-12 sm:px-8 xl:px-0">
+    <div class="grid grid-cols-4 gap-8 mt-12 sm:grid-cols-8 md:grid-cols-12 px-4 sm:px-8 xl:px-0">
 
         <div class="cards" data-rounded="rounded-xl" data-rounded-max="rounded-full">
             <div class="p-3 text-white bg-purple-300 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
