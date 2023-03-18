@@ -1,5 +1,6 @@
 <script>
     import '../styles/card.css'
+    import '../styles/buttonget.css'
 </script>
 <div class="container mx-auto px-10 py-10 text-center">
     <div class="mx-auto max-w-lg">
@@ -8,11 +9,15 @@
             <span class="text-lg lg:text-2xl"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/noriban/autonote?label=%20&style=flat-squar"></span>
         </div>
     <p class="mt-3 text-xl text-gray-500 dark:text-gray-300 lg:text-3xl">
-        Your car companion
+        Your car companion on your phone
     </p>
-    <!-- <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-        <img class="gplay items-center justify-center mx-auto h-3/4 w-3/4" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
-    </a> -->
+        <div class="flex md:gap-12 mx-0 my-6 justify-center items-center">
+            <button class="get">Get the app</button>
+            <button class="get">Learn more</button>
+        </div>
+        <!-- <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <img class="gplay items-center justify-center mx-auto h-3/4 w-3/4" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+        </a> -->
     
 </div>
 </div>
