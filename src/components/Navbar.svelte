@@ -1,6 +1,6 @@
 <script>
     import logo from '../assets/logo.svg'
-    import '../styles/button.css'
+    // import '../styles/button.css'
 </script>
 <nav class="bg-gray-200 shadow shadow-gray-300 w-100 sm:py-4 md:py-0 md:w-4/5 lg:w-3/4 md:mx-auto md:px-auto md:rounded-full md:my-3 xl:w-2/4">
 	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap ">
@@ -24,7 +24,7 @@
 		<div class="order-2 md:order-3">
       <a href="https://github.com/noriban/AutoNote/releases">
 
-        <button class="downButton mx-3 px-3 py-4 sm:px-1 shadow-2xl bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2 md:py-3 hover:py-4">
+        <button class="downButton mx-3 px-3 py-4 sm:px-2 shadow-2xl bg-indigo-500 hover:bg-indigo-700 text-gray-50 rounded-2xl flex items-center gap-2 md:py-3">
         <!-- Heroicons - Login Solid -->
         <span class="">Download</span>
       </button>
