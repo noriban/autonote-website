@@ -10,7 +10,7 @@
 <Navbar/>
 
 <main>
-    <section class="sections">
+    <section>
         <Info />
     </section>
     <section class="sections">
