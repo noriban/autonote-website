@@ -16,15 +16,10 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
     },
-    fontFamily: {
-      noto: ['Noto Sans Adlam Unjoined', 'sans-serif'],
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
     extend: {
       content: {
         'link': 'url("./assets/ghlogo.png")',
-        },
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
@@ -32,6 +27,11 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       }
+    },
+    fontFamily: {
+      noto: ['Noto Sans Adlam Unjoined', 'sans-serif'],
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
     }
   },
   plugins: [
