@@ -28,4 +28,7 @@
     .cards {
         @apply flex flex-col items-center justify-around sm:justify-between col-span-4 px-2 sm:px-8 py-12 space-y-4 bg-gray-100 rounded-xl
     }
+    .get {
+        @apply px-10 py-4 rounded-2xl font-normal
+    }
 }
