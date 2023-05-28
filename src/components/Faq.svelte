@@ -1,4 +1,4 @@
-<div class="px-8 mx-auto max-w-7xl lg:px-16 tails-selected-element" contenteditable="true">
+<div id="faq" class="px-8 mx-auto max-w-7xl lg:px-16 tails-selected-element">
     <h2 class="mb-4 text-xl font-bold md:text-3xl">Frequently Asked Questions</h2>
     <div class="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
         <div class="">

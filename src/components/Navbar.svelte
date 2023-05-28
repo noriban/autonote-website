@@ -7,7 +7,7 @@
 		<!-- Logo -->
 		<div class="mx-3 md:mx-0 md:order-1">
 			<!-- Heroicon - Chip Outline -->
-      <a href="/">  
+      <a href="/">
         <img class="h-14 w-14 flex-1 md:rounded-full" src="{logo}" alt="logo">
       </a>
 		</div>
@@ -23,7 +23,6 @@
 		</div>
 		<div class="order-2 md:order-3">
       <a href="https://github.com/noriban/AutoNote/releases">
-
         <button class="downButton mx-3 px-3 py-4 sm:px-2 shadow-2xl bg-indigo-500 hover:bg-indigo-700 text-gray-50 rounded-2xl flex items-center gap-2 md:py-3">
         <!-- Heroicons - Login Solid -->
         <span class="">Download</span>

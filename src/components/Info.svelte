@@ -11,10 +11,10 @@
     <p class="mt-3 text-xl text-gray-500 dark:text-gray-300 lg:text-3xl">
         Your car companion on your phone
     </p>
-        <div class="flex md:gap-12 mx-0 my-6 justify-center items-center">
-            <button class="get">Get the app</button>
-            <button class="get">Learn more</button>
-        </div>
+    <div class="flex md:gap-12 mx-0 my-6 justify-center items-center">
+        <button class="get">Get the app</button>
+        <button class="get">Learn more</button>
+    </div>
         <!-- <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
             <img class="gplay items-center justify-center mx-auto h-3/4 w-3/4" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
         </a> -->

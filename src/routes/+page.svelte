@@ -17,10 +17,10 @@
         <Features />
     </section>
     <section class="sections">
-        <!-- <Faq/> -->test
+         <FAQ />
     </section>
     <section class="sections">
-test
+        Tu będzie ekran downloadu
     </section>
 </main>
 <FooterComp />
