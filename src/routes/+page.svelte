@@ -4,14 +4,19 @@
     import FooterComp from '../components/Footer.svelte'
     import Features from '../components/Features.svelte'
     import FAQ from '../components/Faq.svelte'
+    import Presentation from '../components/Presentation.svelte'
 
 </script>
 
 <Navbar/>
 
 <main>
+
     <section>
         <Info />
+    </section>
+    <section>
+        <Presentation />
     </section>
     <section class="sections">
         <Features />
@@ -22,5 +27,6 @@
     <section class="sections">
         Tu będzie ekran downloadu
     </section>
+
 </main>
 <FooterComp />
