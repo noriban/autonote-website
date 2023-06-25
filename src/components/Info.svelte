@@ -1,6 +1,9 @@
 <script>
+
     import '../styles/card.css'
     import '../styles/buttonget.css'
+    import '../styles/downloadButton.css'
+
 </script>
 <div class="container mx-auto px-10 py-10 text-center">
     <div class="mx-auto max-w-lg">
@@ -12,8 +15,13 @@
         Your car companion on your phone
     </p>
     <div class="flex md:gap-12 mx-0 my-6 justify-center items-center">
-        <button class="get">Get the app</button>
-        <button class="get">Learn more</button>
+        <button class="downloadButton">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>Download Now
+          </button>
+        <button class="get">More info</button>
     </div>
         <!-- <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
             <img class="gplay items-center justify-center mx-auto h-3/4 w-3/4" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
