@@ -5,7 +5,8 @@
     import '../styles/downloadButton.css'
 
 </script>
-<div class="container mx-auto px-10 py-10 text-center">
+
+<div class="w-11/12 mx-auto px-3 py-10 my-6 text-center bg-blue-100 rounded-3xl">
     <div class="mx-auto max-w-lg">
         <div class="flex justify-center">
             <h1 class="text-4xl sm:text-5xl font-bold text-gray-800 dark:text-white lg:text-7xl">AutoNote</h1>
@@ -29,7 +30,7 @@
     
 </div>
 </div>
-<div class="container mx-auto px-2 pt-2">
+<div class="container mx-auto px-2 pt-10">
 
 
     <!-- <div class="mt-1 grid grid-cols-1 mx-4 gap-2 md:grid-cols-2 xl:grid-cols-2 xl:gap-14 xl:items-center xl:justify-center">
